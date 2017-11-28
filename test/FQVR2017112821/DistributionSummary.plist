@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FQVR.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>606C8EB44F0EE964D587468E1E63EAF06A28A0FA</string>
+				<key>dateExpires</key>
+				<string>2018/11/28</string>
+				<key>type</key>
+				<string>iOS Development</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>9JF26XGJ42.live.wesee.app</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>9JF26XGJ42</string>
+				<key>get-task-allow</key>
+				<true/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>9JF26XGJ42.live.wesee.app</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>FQVR.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>eabd1228-697f-4d8b-9382-1d5b37299460</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: live.wesee.app</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>9JF26XGJ42</string>
+				<key>name</key>
+				<string>Weikan Information Technology (Guangzhou) Ltd.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
