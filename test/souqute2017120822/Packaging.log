@@ -1,0 +1,902 @@
+2017-12-08 14:55:24 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7f9a255de2e0; archive(resolved)='<IDEArchive: 0x7f9a20d616e0>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodDevelopmentSigned: 0x7f9a20a19170>', team(resolved)='<IDEProvisioningBasicTeam 0x7f9a258b6290: teamID: C7FFSV9SD5, teamName: Guangzhou Yuanchuang Information Technology Company Limited>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7f9a255de2e0; archive = '<IDEArchive: 0x7f9a20d616e0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f9a20a19170>', team='<IDEProvisioningBasicTeam 0x7f9a258b6290: teamID: C7FFSV9SD5, teamName: Guangzhou Yuanchuang Information Technology Company Limited>'>
+	<IDEDistributionProcessingPipelineContext: 0x7f9a21877f30; archive = '<IDEArchive: 0x7f9a20d616e0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f9a20a19170>', team='<IDEProvisioningBasicTeam 0x7f9a258b6290: teamID: C7FFSV9SD5, teamName: Guangzhou Yuanchuang Information Technology Company Limited>'>
+	<IDEDistributionContext: 0x7f9a2557e550; archive = '<IDEArchive: 0x7f9a20d616e0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f9a20a19170>', team='<IDEProvisioningBasicTeam 0x7f9a258b6290: teamID: C7FFSV9SD5, teamName: Guangzhou Yuanchuang Information Technology Company Limited>'>
+	<IDEDistributionContext: 0x7f9a379e3e10; archive = '<IDEArchive: 0x7f9a20d616e0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f9a20a19170>', team='<IDEProvisioningBasicTeam 0x7f9a258b6290: teamID: C7FFSV9SD5, teamName: Guangzhou Yuanchuang Information Technology Company Limited>'>
+	<IDEDistributionContext: 0x7f9a206b1190; archive = '<IDEArchive: 0x7f9a20d616e0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f9a20a19170>', team='<IDEProvisioningBasicTeam 0x7f9a258b6290: teamID: C7FFSV9SD5, teamName: Guangzhou Yuanchuang Information Technology Company Limited>'>
+	<IDEDistributionContext: 0x7f9a34bc8660; archive = '<IDEArchive: 0x7f9a20d616e0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f9a20a19170>', team='<IDEProvisioningBasicTeam 0x7f9a258b6290: teamID: C7FFSV9SD5, teamName: Guangzhou Yuanchuang Information Technology Company Limited>'>
+	<IDEDistributionContext: 0x7f9a25634df0; archive = '<IDEArchive: 0x7f9a20d616e0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f9a20a19170>', team='<IDEProvisioningBasicTeam 0x7f9a258b6290: teamID: C7FFSV9SD5, teamName: Guangzhou Yuanchuang Information Technology Company Limited>'>
+	<IDEDistributionContext: 0x7f9a25de0300; archive = '<IDEArchive: 0x7f9a20d616e0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f9a20a19170>', team='<IDEProvisioningBasicTeam 0x7f9a258b6290: teamID: C7FFSV9SD5, teamName: Guangzhou Yuanchuang Information Technology Company Limited>'>
+	<IDEDistributionContext: 0x7f9a25d61630; archive = '<IDEArchive: 0x7f9a20d616e0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f9a20a19170>', team='<IDEProvisioningBasicTeam 0x7f9a258b6290: teamID: C7FFSV9SD5, teamName: Guangzhou Yuanchuang Information Technology Company Limited>'>
+	<IDEDistributionContext: 0x7f9a22e527e0; archive = '<IDEArchive: 0x7f9a20d616e0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f9a20a19170>', team='(null)'>
+	<IDEDistributionContext: 0x7f9a25d9f8e0; archive = '<IDEArchive: 0x7f9a20d616e0>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7f9a255de2e0>
+2017-12-08 14:55:24 +0000  Processing step: IDEDistributionCreateDestRootStep
+2017-12-08 14:55:24 +0000  Processing step: IDEDistributionCopyItemStep
+2017-12-08 14:55:24 +0000  Running /usr/bin/ditto '-V' '/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app'
+2017-12-08 14:55:24 +0000  >>> Copying /Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app 
+2017-12-08 14:55:24 +0000  copying file ./_CodeSignature/CodeResources ... 
+2017-12-08 14:55:24 +0000  26616 bytes for ./_CodeSignature/CodeResources
+2017-12-08 14:55:24 +0000  copying file ./archived-expanded-entitlements.xcent ... 
+2017-12-08 14:55:24 +0000  380 bytes for ./archived-expanded-entitlements.xcent
+copying file ./Assets.car ... 
+2017-12-08 14:55:24 +0000  2617144 bytes for ./Assets.car
+copying file ./BackView.nib ... 
+2017-12-08 14:55:24 +0000  9011 bytes for ./BackView.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+1987 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Base.lproj/Main.storyboardc/1Y1-Fl-nH5-view-Eac-Sm-geu.nib/objects-11.0+.nib ... 
+13459 bytes for ./Base.lproj/Main.storyboardc/1Y1-Fl-nH5-view-Eac-Sm-geu.nib/objects-11.0+.nib
+copying file ./Base.lproj/Main.storyboardc/1Y1-Fl-nH5-view-Eac-Sm-geu.nib/runtime.nib ... 
+13578 bytes for ./Base.lproj/Main.storyboardc/1Y1-Fl-nH5-view-Eac-Sm-geu.nib/runtime.nib
+copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+333 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+copying file ./Base.lproj/Main.storyboardc/LrC-1T-Q4Y-view-ffw-gd-Jsq.nib/objects-11.0+.nib ... 
+11040 bytes for ./Base.lproj/Main.storyboardc/LrC-1T-Q4Y-view-ffw-gd-Jsq.nib/objects-11.0+.nib
+copying file ./Base.lproj/Main.storyboardc/LrC-1T-Q4Y-view-ffw-gd-Jsq.nib/runtime.nib ... 
+11144 bytes for ./Base.lproj/Main.storyboardc/LrC-1T-Q4Y-view-ffw-gd-Jsq.nib/runtime.nib
+copying file ./Base.lproj/Main.storyboardc/UIViewController-1Y1-Fl-nH5.nib/objects-11.0+.nib ... 
+1243 bytes for ./Base.lproj/Main.storyboardc/UIViewController-1Y1-Fl-nH5.nib/objects-11.0+.nib
+copying file ./Base.lproj/Main.storyboardc/UIViewController-1Y1-Fl-nH5.nib/runtime.nib ... 
+1243 bytes for ./Base.lproj/Main.storyboardc/UIViewController-1Y1-Fl-nH5.nib/runtime.nib
+copying file ./Base.lproj/Main.storyboardc/UIViewController-LrC-1T-Q4Y.nib/objects-11.0+.nib ... 
+980 bytes for ./Base.lproj/Main.storyboardc/UIViewController-LrC-1T-Q4Y.nib/objects-11.0+.nib
+copying file ./Base.lproj/Main.storyboardc/UIViewController-LrC-1T-Q4Y.nib/runtime.nib ... 
+980 bytes for ./Base.lproj/Main.storyboardc/UIViewController-LrC-1T-Q4Y.nib/runtime.nib
+copying file ./embedded.mobileprovision ... 
+11858 bytes for ./embedded.mobileprovision
+copying file ./Frameworks/Alamofire.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Frameworks/Alamofire.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/Alamofire.framework/Alamofire ... 
+2017-12-08 14:55:24 +0000  7094096 bytes for ./Frameworks/Alamofire.framework/Alamofire
+copying file ./Frameworks/Alamofire.framework/Info.plist ... 
+2017-12-08 14:55:24 +0000  739 bytes for ./Frameworks/Alamofire.framework/Info.plist
+copying file ./Frameworks/Kanna.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Frameworks/Kanna.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/Kanna.framework/Info.plist ... 
+731 bytes for ./Frameworks/Kanna.framework/Info.plist
+copying file ./Frameworks/Kanna.framework/Kanna ... 
+2265280 bytes for ./Frameworks/Kanna.framework/Kanna
+copying file ./Frameworks/libswiftAVFoundation.dylib ... 
+504432 bytes for ./Frameworks/libswiftAVFoundation.dylib
+copying file ./Frameworks/libswiftCore.dylib ... 
+2017-12-08 14:55:24 +0000  21079632 bytes for ./Frameworks/libswiftCore.dylib
+copying file ./Frameworks/libswiftCoreAudio.dylib ... 
+2017-12-08 14:55:25 +0000  353904 bytes for ./Frameworks/libswiftCoreAudio.dylib
+copying file ./Frameworks/libswiftCoreData.dylib ... 
+361616 bytes for ./Frameworks/libswiftCoreData.dylib
+copying file ./Frameworks/libswiftCoreFoundation.dylib ... 
+208336 bytes for ./Frameworks/libswiftCoreFoundation.dylib
+copying file ./Frameworks/libswiftCoreGraphics.dylib ... 
+577792 bytes for ./Frameworks/libswiftCoreGraphics.dylib
+copying file ./Frameworks/libswiftCoreImage.dylib ... 
+208896 bytes for ./Frameworks/libswiftCoreImage.dylib
+copying file ./Frameworks/libswiftCoreMedia.dylib ... 
+253696 bytes for ./Frameworks/libswiftCoreMedia.dylib
+copying file ./Frameworks/libswiftDarwin.dylib ... 
+303104 bytes for ./Frameworks/libswiftDarwin.dylib
+copying file ./Frameworks/libswiftDispatch.dylib ... 
+1009296 bytes for ./Frameworks/libswiftDispatch.dylib
+copying file ./Frameworks/libswiftFoundation.dylib ... 
+8425360 bytes for ./Frameworks/libswiftFoundation.dylib
+copying file ./Frameworks/libswiftGLKit.dylib ... 
+209808 bytes for ./Frameworks/libswiftGLKit.dylib
+copying file ./Frameworks/libswiftMetal.dylib ... 
+251296 bytes for ./Frameworks/libswiftMetal.dylib
+copying file ./Frameworks/libswiftModelIO.dylib ... 
+308176 bytes for ./Frameworks/libswiftModelIO.dylib
+copying file ./Frameworks/libswiftObjectiveC.dylib ... 
+258976 bytes for ./Frameworks/libswiftObjectiveC.dylib
+copying file ./Frameworks/libswiftos.dylib ... 
+248944 bytes for ./Frameworks/libswiftos.dylib
+copying file ./Frameworks/libswiftQuartzCore.dylib ... 
+212256 bytes for ./Frameworks/libswiftQuartzCore.dylib
+copying file ./Frameworks/libswiftSceneKit.dylib ... 
+258464 bytes for ./Frameworks/libswiftSceneKit.dylib
+copying file ./Frameworks/libswiftsimd.dylib ... 
+1361280 bytes for ./Frameworks/libswiftsimd.dylib
+copying file ./Frameworks/libswiftSpriteKit.dylib ... 
+248768 bytes for ./Frameworks/libswiftSpriteKit.dylib
+copying file ./Frameworks/libswiftUIKit.dylib ... 
+361536 bytes for ./Frameworks/libswiftUIKit.dylib
+copying file ./Frameworks/RxCocoa.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Frameworks/RxCocoa.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/RxCocoa.framework/Info.plist ... 
+735 bytes for ./Frameworks/RxCocoa.framework/Info.plist
+copying file ./Frameworks/RxCocoa.framework/RxCocoa ... 
+2017-12-08 14:55:25 +0000  9841424 bytes for ./Frameworks/RxCocoa.framework/RxCocoa
+copying file ./Frameworks/RxSwift.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Frameworks/RxSwift.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/RxSwift.framework/Info.plist ... 
+735 bytes for ./Frameworks/RxSwift.framework/Info.plist
+copying file ./Frameworks/RxSwift.framework/RxSwift ... 
+2017-12-08 14:55:25 +0000  13896160 bytes for ./Frameworks/RxSwift.framework/RxSwift
+2017-12-08 14:55:25 +0000  2017-12-08 14:55:25 +0000  /usr/bin/ditto exited with 0
+
+2017-12-08 14:55:25 +0000  copying file ./Frameworks/SwiftyJSON.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Frameworks/SwiftyJSON.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/SwiftyJSON.framework/Info.plist ... 
+741 bytes for ./Frameworks/SwiftyJSON.framework/Info.plist
+copying file ./Frameworks/SwiftyJSON.framework/SwiftyJSON ... 
+2522800 bytes for ./Frameworks/SwiftyJSON.framework/SwiftyJSON
+copying file ./Frameworks/Toast_Swift.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Frameworks/Toast_Swift.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/Toast_Swift.framework/Info.plist ... 
+743 bytes for ./Frameworks/Toast_Swift.framework/Info.plist
+copying file ./Frameworks/Toast_Swift.framework/Toast_Swift ... 
+936496 bytes for ./Frameworks/Toast_Swift.framework/Toast_Swift
+copying file ./Info.plist ... 
+1175 bytes for ./Info.plist
+copying file ./MyView.nib ... 
+10824 bytes for ./MyView.nib
+copying file ./PkgInfo ... 
+8 bytes for ./PkgInfo
+copying file ./scene.scnassets/.DS_Store ... 
+6148 bytes for ./scene.scnassets/.DS_Store
+copying file ./scene.scnassets/btn_bar_start.png ... 
+9082 bytes for ./scene.scnassets/btn_bar_start.png
+copying file ./scene.scnassets/btn_bar_stop.png ... 
+3143 bytes for ./scene.scnassets/btn_bar_stop.png
+copying file ./scene.scnassets/btn_menu_hov.png ... 
+6947 bytes for ./scene.scnassets/btn_menu_hov.png
+copying file ./scene.scnassets/btn_replay.png ... 
+8056 bytes for ./scene.scnassets/btn_replay.png
+copying file ./scene.scnassets/circle.png ... 
+2046 bytes for ./scene.scnassets/circle.png
+copying file ./scene.scnassets/panel_menu.png ... 
+3047 bytes for ./scene.scnassets/panel_menu.png
+copying file ./scene.scnassets/seekbar_desk_loading.png ... 
+2132 bytes for ./scene.scnassets/seekbar_desk_loading.png
+copying file ./scene.scnassets/seekbar_thumb.png ... 
+1195 bytes for ./scene.scnassets/seekbar_thumb.png
+copying file ./scene.scnassets/star.png ... 
+2429 bytes for ./scene.scnassets/star.png
+copying file ./scene.scnassets/star2.png ... 
+2438 bytes for ./scene.scnassets/star2.png
+copying file ./scene.scnassets/test.scn ... 
+57334 bytes for ./scene.scnassets/test.scn
+copying file ./Shader.fsh ... 
+662 bytes for ./Shader.fsh
+copying file ./Shader.vsh ... 
+829 bytes for ./Shader.vsh
+copying file ./souqute ... 
+1287888 bytes for ./souqute
+copying file ./souqute.momd/souqute.mom ... 
+513 bytes for ./souqute.momd/souqute.mom
+copying file ./souqute.momd/souqute.omo ... 
+696 bytes for ./souqute.momd/souqute.omo
+copying file ./souqute.momd/VersionInfo.plist ... 
+151 bytes for ./souqute.momd/VersionInfo.plist
+2017-12-08 14:55:25 +0000  Processing step: IDEDistributionEmbedProfileStep
+2017-12-08 14:55:25 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9a25d74640 'org.cocoapods.Alamofire' '<DVTFilePath:0x7f9a35f0e110:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/Alamofire.framework'>'>
+2017-12-08 14:55:25 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9a25d4c710 'org.cocoapods.Kanna' '<DVTFilePath:0x7f9a257c3960:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/Kanna.framework'>'>
+2017-12-08 14:55:25 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9a25d744f0 'org.cocoapods.RxCocoa' '<DVTFilePath:0x7f9a34c0e500:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/RxCocoa.framework'>'>
+2017-12-08 14:55:25 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9a25976e40 'org.cocoapods.RxSwift' '<DVTFilePath:0x7f9a25b6e280:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/RxSwift.framework'>'>
+2017-12-08 14:55:25 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9a20cf1150 'org.cocoapods.SwiftyJSON' '<DVTFilePath:0x7f9a25bdc3e0:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/SwiftyJSON.framework'>'>
+2017-12-08 14:55:25 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9a25b5ce90 'org.cocoapods.Toast-Swift' '<DVTFilePath:0x7f9a25ba67e0:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/Toast_Swift.framework'>'>
+2017-12-08 14:55:25 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9a25d94940 'com.apple.dt.runtime.swiftAVFoundation' '<DVTFilePath:0x7f9a34ba67d0:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftAVFoundation.dylib'>'>
+2017-12-08 14:55:25 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9a1f7b8b30 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7f9a20e2a860:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftCore.dylib'>'>
+2017-12-08 14:55:25 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9a20240280 'com.apple.dt.runtime.swiftCoreAudio' '<DVTFilePath:0x7f9a2596a590:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftCoreAudio.dylib'>'>
+2017-12-08 14:55:25 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9a20328f90 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7f9a253b56a0:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftCoreData.dylib'>'>
+2017-12-08 14:55:25 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9a250b8f80 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7f9a20e2db90:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2017-12-08 14:55:25 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9a25d74f00 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7f9a21878290:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2017-12-08 14:55:25 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9a25dd97c0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7f9a20c44610:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftCoreImage.dylib'>'>
+2017-12-08 14:55:25 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9a25e536d0 'com.apple.dt.runtime.swiftCoreMedia' '<DVTFilePath:0x7f9a21b27b90:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftCoreMedia.dylib'>'>
+2017-12-08 14:55:25 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9a1f5b8cb0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7f9a37a6d190:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftDarwin.dylib'>'>
+2017-12-08 14:55:25 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9a202c52a0 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7f9a245c3e80:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftDispatch.dylib'>'>
+2017-12-08 14:55:25 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9a25d4e5e0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7f9a34d47a10:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftFoundation.dylib'>'>
+2017-12-08 14:55:25 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9a25ed57e0 'com.apple.dt.runtime.swiftGLKit' '<DVTFilePath:0x7f9a3cfc4490:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftGLKit.dylib'>'>
+2017-12-08 14:55:25 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9a367c0190 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7f9a25b83300:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftMetal.dylib'>'>
+2017-12-08 14:55:25 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9a25b58470 'com.apple.dt.runtime.swiftModelIO' '<DVTFilePath:0x7f9a25bf4c10:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftModelIO.dylib'>'>
+2017-12-08 14:55:25 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9a25bf2940 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7f9a257234f0:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2017-12-08 14:55:25 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9a206b25c0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7f9a25bf2240:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2017-12-08 14:55:25 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9a25d344c0 'com.apple.dt.runtime.swiftSceneKit' '<DVTFilePath:0x7f9a35011a30:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftSceneKit.dylib'>'>
+2017-12-08 14:55:25 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9a3a1f8000 'com.apple.dt.runtime.swiftSpriteKit' '<DVTFilePath:0x7f9a25f659d0:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftSpriteKit.dylib'>'>
+2017-12-08 14:55:25 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9a25a85540 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7f9a25a60340:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftUIKit.dylib'>'>
+2017-12-08 14:55:25 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9a3cbcabe0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7f9a20db1b20:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftos.dylib'>'>
+2017-12-08 14:55:25 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9a20802f80 'com.apple.dt.runtime.swiftsimd' '<DVTFilePath:0x7f9a201e9c40:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftsimd.dylib'>'>
+2017-12-08 14:55:25 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2017-12-08 14:55:25 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2017-12-08 14:55:25 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2017-12-08 14:55:25 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-12-08 14:55:25 +0000  Processing step: IDEDistributionSymbolsStep
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-08 14:55:25 +0000  Processing step: IDEDistributionAppThinningStep
+2017-12-08 14:55:25 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2017-12-08 14:55:25 +0000  Processing step: IDEDistributionODRStep
+2017-12-08 14:55:25 +0000  Processing step: IDEDistributionStripXattrsStep
+2017-12-08 14:55:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9a25d74640 'org.cocoapods.Alamofire' '<DVTFilePath:0x7f9a35f0e110:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/Alamofire.framework'>'>
+2017-12-08 14:55:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9a25d4c710 'org.cocoapods.Kanna' '<DVTFilePath:0x7f9a257c3960:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/Kanna.framework'>'>
+2017-12-08 14:55:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9a25d744f0 'org.cocoapods.RxCocoa' '<DVTFilePath:0x7f9a34c0e500:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/RxCocoa.framework'>'>
+2017-12-08 14:55:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9a25976e40 'org.cocoapods.RxSwift' '<DVTFilePath:0x7f9a25b6e280:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/RxSwift.framework'>'>
+2017-12-08 14:55:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9a20cf1150 'org.cocoapods.SwiftyJSON' '<DVTFilePath:0x7f9a25bdc3e0:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/SwiftyJSON.framework'>'>
+2017-12-08 14:55:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9a25b5ce90 'org.cocoapods.Toast-Swift' '<DVTFilePath:0x7f9a25ba67e0:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/Toast_Swift.framework'>'>
+2017-12-08 14:55:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9a25d94940 'com.apple.dt.runtime.swiftAVFoundation' '<DVTFilePath:0x7f9a34ba67d0:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftAVFoundation.dylib'>'>
+2017-12-08 14:55:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9a1f7b8b30 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7f9a20e2a860:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftCore.dylib'>'>
+2017-12-08 14:55:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9a20240280 'com.apple.dt.runtime.swiftCoreAudio' '<DVTFilePath:0x7f9a2596a590:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftCoreAudio.dylib'>'>
+2017-12-08 14:55:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9a20328f90 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7f9a253b56a0:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftCoreData.dylib'>'>
+2017-12-08 14:55:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9a250b8f80 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7f9a20e2db90:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2017-12-08 14:55:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9a25d74f00 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7f9a21878290:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2017-12-08 14:55:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9a25dd97c0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7f9a20c44610:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftCoreImage.dylib'>'>
+2017-12-08 14:55:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9a25e536d0 'com.apple.dt.runtime.swiftCoreMedia' '<DVTFilePath:0x7f9a21b27b90:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftCoreMedia.dylib'>'>
+2017-12-08 14:55:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9a1f5b8cb0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7f9a37a6d190:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftDarwin.dylib'>'>
+2017-12-08 14:55:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9a202c52a0 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7f9a245c3e80:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftDispatch.dylib'>'>
+2017-12-08 14:55:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9a25d4e5e0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7f9a34d47a10:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftFoundation.dylib'>'>
+2017-12-08 14:55:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9a25ed57e0 'com.apple.dt.runtime.swiftGLKit' '<DVTFilePath:0x7f9a3cfc4490:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftGLKit.dylib'>'>
+2017-12-08 14:55:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9a367c0190 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7f9a25b83300:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftMetal.dylib'>'>
+2017-12-08 14:55:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9a25b58470 'com.apple.dt.runtime.swiftModelIO' '<DVTFilePath:0x7f9a25bf4c10:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftModelIO.dylib'>'>
+2017-12-08 14:55:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9a25bf2940 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7f9a257234f0:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2017-12-08 14:55:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9a206b25c0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7f9a25bf2240:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2017-12-08 14:55:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9a25d344c0 'com.apple.dt.runtime.swiftSceneKit' '<DVTFilePath:0x7f9a35011a30:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftSceneKit.dylib'>'>
+2017-12-08 14:55:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9a3a1f8000 'com.apple.dt.runtime.swiftSpriteKit' '<DVTFilePath:0x7f9a25f659d0:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftSpriteKit.dylib'>'>
+2017-12-08 14:55:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9a25a85540 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7f9a25a60340:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftUIKit.dylib'>'>
+2017-12-08 14:55:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9a3cbcabe0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7f9a20db1b20:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftos.dylib'>'>
+2017-12-08 14:55:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9a20802f80 'com.apple.dt.runtime.swiftsimd' '<DVTFilePath:0x7f9a201e9c40:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftsimd.dylib'>'>
+2017-12-08 14:55:25 +0000  Running /usr/bin/xattr '-crs' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app'
+2017-12-08 14:55:26 +0000  
+2017-12-08 14:55:26 +0000  2017-12-08 14:55:26 +0000  /usr/bin/xattr exited with 0
+
+2017-12-08 14:55:26 +0000  
+2017-12-08 14:55:26 +0000  Processing step: IDEDistributionCodesignStep
+2017-12-08 14:55:26 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9a25d74640 'org.cocoapods.Alamofire' '<DVTFilePath:0x7f9a35f0e110:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/Alamofire.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9a25a49b10>: {
+}
+2017-12-08 14:55:26 +0000  Entitlements for <IDEDistributionItem: 0x7f9a25d74640 'org.cocoapods.Alamofire' '<DVTFilePath:0x7f9a35f0e110:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/Alamofire.framework'>'>: {
+}
+2017-12-08 14:55:26 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9a25d74640 'org.cocoapods.Alamofire' '<DVTFilePath:0x7f9a35f0e110:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/Alamofire.framework'>'> to: /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlements6SWIoq
+2017-12-08 14:55:26 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'D8A7613BB927A2E25B537FFDB173B06FED5F5FD4' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlements6SWIoq' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/Alamofire.framework'
+2017-12-08 14:55:27 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/Alamofire.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.Alamofire]
+2017-12-08 14:55:27 +0000  
+2017-12-08 14:55:27 +0000  
+2017-12-08 14:55:27 +0000  
+2017-12-08 14:55:27 +0000  
+2017-12-08 14:55:27 +0000  2017-12-08 14:55:27 +0000  /usr/bin/codesign exited with 0
+
+2017-12-08 14:55:27 +0000  
+2017-12-08 14:55:27 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9a25d4c710 'org.cocoapods.Kanna' '<DVTFilePath:0x7f9a257c3960:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/Kanna.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9a20e50360>: {
+}
+2017-12-08 14:55:27 +0000  Entitlements for <IDEDistributionItem: 0x7f9a25d4c710 'org.cocoapods.Kanna' '<DVTFilePath:0x7f9a257c3960:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/Kanna.framework'>'>: {
+}
+2017-12-08 14:55:27 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9a25d4c710 'org.cocoapods.Kanna' '<DVTFilePath:0x7f9a257c3960:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/Kanna.framework'>'> to: /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlementshbVDz1
+2017-12-08 14:55:27 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'D8A7613BB927A2E25B537FFDB173B06FED5F5FD4' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlementshbVDz1' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/Kanna.framework'
+2017-12-08 14:55:27 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/Kanna.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.Kanna]
+2017-12-08 14:55:27 +0000  
+2017-12-08 14:55:27 +0000  
+2017-12-08 14:55:27 +0000  
+2017-12-08 14:55:27 +0000  
+2017-12-08 14:55:27 +0000  /usr/bin/codesign exited with 02017-12-08 14:55:27 +0000  
+
+2017-12-08 14:55:27 +0000  
+2017-12-08 14:55:27 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9a25d744f0 'org.cocoapods.RxCocoa' '<DVTFilePath:0x7f9a34c0e500:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/RxCocoa.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9a20e26210>: {
+}
+2017-12-08 14:55:27 +0000  Entitlements for <IDEDistributionItem: 0x7f9a25d744f0 'org.cocoapods.RxCocoa' '<DVTFilePath:0x7f9a34c0e500:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/RxCocoa.framework'>'>: {
+}
+2017-12-08 14:55:27 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9a25d744f0 'org.cocoapods.RxCocoa' '<DVTFilePath:0x7f9a34c0e500:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/RxCocoa.framework'>'> to: /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlements6XjKyN
+2017-12-08 14:55:27 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'D8A7613BB927A2E25B537FFDB173B06FED5F5FD4' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlements6XjKyN' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/RxCocoa.framework'
+2017-12-08 14:55:27 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/RxCocoa.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.RxCocoa]
+2017-12-08 14:55:27 +0000  
+2017-12-08 14:55:27 +0000  
+2017-12-08 14:55:27 +0000  
+2017-12-08 14:55:27 +0000  
+2017-12-08 14:55:27 +0000  2017-12-08 14:55:27 +0000  /usr/bin/codesign exited with 0
+
+2017-12-08 14:55:27 +0000  
+2017-12-08 14:55:27 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9a25976e40 'org.cocoapods.RxSwift' '<DVTFilePath:0x7f9a25b6e280:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/RxSwift.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9a24742620>: {
+}
+2017-12-08 14:55:27 +0000  Entitlements for <IDEDistributionItem: 0x7f9a25976e40 'org.cocoapods.RxSwift' '<DVTFilePath:0x7f9a25b6e280:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/RxSwift.framework'>'>: {
+}
+2017-12-08 14:55:27 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9a25976e40 'org.cocoapods.RxSwift' '<DVTFilePath:0x7f9a25b6e280:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/RxSwift.framework'>'> to: /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlementsXrHjwH
+2017-12-08 14:55:27 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'D8A7613BB927A2E25B537FFDB173B06FED5F5FD4' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlementsXrHjwH' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/RxSwift.framework'
+2017-12-08 14:55:27 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/RxSwift.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.RxSwift]
+2017-12-08 14:55:27 +0000  
+2017-12-08 14:55:27 +0000  
+2017-12-08 14:55:27 +0000  
+2017-12-08 14:55:27 +0000  
+2017-12-08 14:55:27 +0000  /usr/bin/codesign exited with 0
+2017-12-08 14:55:27 +0000  2017-12-08 14:55:27 +0000  
+
+2017-12-08 14:55:27 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9a20cf1150 'org.cocoapods.SwiftyJSON' '<DVTFilePath:0x7f9a25bdc3e0:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/SwiftyJSON.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9a360dcf40>: {
+}
+2017-12-08 14:55:27 +0000  Entitlements for <IDEDistributionItem: 0x7f9a20cf1150 'org.cocoapods.SwiftyJSON' '<DVTFilePath:0x7f9a25bdc3e0:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/SwiftyJSON.framework'>'>: {
+}
+2017-12-08 14:55:27 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9a20cf1150 'org.cocoapods.SwiftyJSON' '<DVTFilePath:0x7f9a25bdc3e0:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/SwiftyJSON.framework'>'> to: /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlementseEAKwc
+2017-12-08 14:55:27 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'D8A7613BB927A2E25B537FFDB173B06FED5F5FD4' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlementseEAKwc' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/SwiftyJSON.framework'
+2017-12-08 14:55:28 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/SwiftyJSON.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.SwiftyJSON]
+2017-12-08 14:55:28 +0000  
+2017-12-08 14:55:28 +0000  
+2017-12-08 14:55:28 +0000  
+2017-12-08 14:55:28 +0000  
+2017-12-08 14:55:28 +0000  /usr/bin/codesign exited with 02017-12-08 14:55:28 +0000  
+
+2017-12-08 14:55:28 +0000  
+2017-12-08 14:55:28 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9a25b5ce90 'org.cocoapods.Toast-Swift' '<DVTFilePath:0x7f9a25ba67e0:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/Toast_Swift.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9a247202e0>: {
+}
+2017-12-08 14:55:28 +0000  Entitlements for <IDEDistributionItem: 0x7f9a25b5ce90 'org.cocoapods.Toast-Swift' '<DVTFilePath:0x7f9a25ba67e0:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/Toast_Swift.framework'>'>: {
+}
+2017-12-08 14:55:28 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9a25b5ce90 'org.cocoapods.Toast-Swift' '<DVTFilePath:0x7f9a25ba67e0:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/Toast_Swift.framework'>'> to: /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlementsdQXTUN
+2017-12-08 14:55:28 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'D8A7613BB927A2E25B537FFDB173B06FED5F5FD4' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlementsdQXTUN' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/Toast_Swift.framework'
+2017-12-08 14:55:28 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/Toast_Swift.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.Toast-Swift]
+2017-12-08 14:55:28 +0000  
+2017-12-08 14:55:28 +0000  
+2017-12-08 14:55:28 +0000  
+2017-12-08 14:55:28 +0000  
+2017-12-08 14:55:28 +0000  /usr/bin/codesign exited with 0
+2017-12-08 14:55:28 +0000  2017-12-08 14:55:28 +0000  
+
+2017-12-08 14:55:28 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9a25d94940 'com.apple.dt.runtime.swiftAVFoundation' '<DVTFilePath:0x7f9a34ba67d0:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftAVFoundation.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9a21c37a70>: {
+}
+2017-12-08 14:55:28 +0000  Entitlements for <IDEDistributionItem: 0x7f9a25d94940 'com.apple.dt.runtime.swiftAVFoundation' '<DVTFilePath:0x7f9a34ba67d0:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftAVFoundation.dylib'>'>: {
+}
+2017-12-08 14:55:28 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9a25d94940 'com.apple.dt.runtime.swiftAVFoundation' '<DVTFilePath:0x7f9a34ba67d0:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftAVFoundation.dylib'>'> to: /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlementsqk7yHX
+2017-12-08 14:55:28 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'D8A7613BB927A2E25B537FFDB173B06FED5F5FD4' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlementsqk7yHX' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftAVFoundation.dylib'
+2017-12-08 14:55:28 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftAVFoundation.dylib: replacing existing signature
+2017-12-08 14:55:28 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftAVFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftAVFoundation]
+2017-12-08 14:55:28 +0000  
+2017-12-08 14:55:28 +0000  
+2017-12-08 14:55:28 +0000  2017-12-08 14:55:28 +0000  
+
+2017-12-08 14:55:28 +0000  /usr/bin/codesign exited with 02017-12-08 14:55:28 +0000  
+
+2017-12-08 14:55:28 +0000  
+2017-12-08 14:55:28 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9a1f7b8b30 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7f9a20e2a860:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftCore.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9a21d0afc0>: {
+}
+2017-12-08 14:55:28 +0000  Entitlements for <IDEDistributionItem: 0x7f9a1f7b8b30 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7f9a20e2a860:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftCore.dylib'>'>: {
+}
+2017-12-08 14:55:28 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9a1f7b8b30 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7f9a20e2a860:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftCore.dylib'>'> to: /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlementsuKHe9J
+2017-12-08 14:55:28 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'D8A7613BB927A2E25B537FFDB173B06FED5F5FD4' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlementsuKHe9J' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftCore.dylib'
+2017-12-08 14:55:28 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftCore.dylib: replacing existing signature
+2017-12-08 14:55:29 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCore]
+2017-12-08 14:55:29 +0000  
+2017-12-08 14:55:29 +0000  
+2017-12-08 14:55:29 +0000  
+2017-12-08 14:55:29 +0000  2017-12-08 14:55:29 +0000  /usr/bin/codesign exited with 0
+
+2017-12-08 14:55:29 +0000  
+2017-12-08 14:55:29 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9a20240280 'com.apple.dt.runtime.swiftCoreAudio' '<DVTFilePath:0x7f9a2596a590:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftCoreAudio.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9a25a4ef40>: {
+}
+2017-12-08 14:55:29 +0000  Entitlements for <IDEDistributionItem: 0x7f9a20240280 'com.apple.dt.runtime.swiftCoreAudio' '<DVTFilePath:0x7f9a2596a590:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftCoreAudio.dylib'>'>: {
+}
+2017-12-08 14:55:29 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9a20240280 'com.apple.dt.runtime.swiftCoreAudio' '<DVTFilePath:0x7f9a2596a590:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftCoreAudio.dylib'>'> to: /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlements6Noea8
+2017-12-08 14:55:29 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'D8A7613BB927A2E25B537FFDB173B06FED5F5FD4' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlements6Noea8' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftCoreAudio.dylib'
+2017-12-08 14:55:29 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftCoreAudio.dylib: replacing existing signature
+2017-12-08 14:55:29 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftCoreAudio.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreAudio]
+2017-12-08 14:55:29 +0000  
+2017-12-08 14:55:29 +0000  
+2017-12-08 14:55:29 +0000  2017-12-08 14:55:29 +0000  
+
+2017-12-08 14:55:29 +0000  /usr/bin/codesign exited with 02017-12-08 14:55:29 +0000  
+
+2017-12-08 14:55:29 +0000  
+2017-12-08 14:55:29 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9a20328f90 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7f9a253b56a0:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftCoreData.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9a21ac02a0>: {
+}
+2017-12-08 14:55:29 +0000  Entitlements for <IDEDistributionItem: 0x7f9a20328f90 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7f9a253b56a0:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftCoreData.dylib'>'>: {
+}
+2017-12-08 14:55:29 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9a20328f90 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7f9a253b56a0:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftCoreData.dylib'>'> to: /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlementsijljuB
+2017-12-08 14:55:29 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'D8A7613BB927A2E25B537FFDB173B06FED5F5FD4' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlementsijljuB' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftCoreData.dylib'
+2017-12-08 14:55:29 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftCoreData.dylib: replacing existing signature
+2017-12-08 14:55:29 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftCoreData.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreData]
+2017-12-08 14:55:29 +0000  
+2017-12-08 14:55:29 +0000  
+2017-12-08 14:55:29 +0000  
+2017-12-08 14:55:29 +0000  2017-12-08 14:55:29 +0000  
+
+2017-12-08 14:55:29 +0000  /usr/bin/codesign exited with 02017-12-08 14:55:29 +0000  
+
+2017-12-08 14:55:29 +0000  
+2017-12-08 14:55:29 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9a250b8f80 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7f9a20e2db90:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftCoreFoundation.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9a20557fe0>: {
+}
+2017-12-08 14:55:29 +0000  Entitlements for <IDEDistributionItem: 0x7f9a250b8f80 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7f9a20e2db90:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftCoreFoundation.dylib'>'>: {
+}
+2017-12-08 14:55:29 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9a250b8f80 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7f9a20e2db90:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftCoreFoundation.dylib'>'> to: /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlements0bYChS
+2017-12-08 14:55:29 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'D8A7613BB927A2E25B537FFDB173B06FED5F5FD4' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlements0bYChS' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftCoreFoundation.dylib'
+2017-12-08 14:55:29 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftCoreFoundation.dylib: replacing existing signature
+2017-12-08 14:55:30 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftCoreFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreFoundation]
+2017-12-08 14:55:30 +0000  
+2017-12-08 14:55:30 +0000  
+2017-12-08 14:55:30 +0000  
+2017-12-08 14:55:30 +0000  
+2017-12-08 14:55:30 +0000  /usr/bin/codesign exited with 02017-12-08 14:55:30 +0000  
+
+2017-12-08 14:55:30 +0000  
+2017-12-08 14:55:30 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9a25d74f00 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7f9a21878290:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftCoreGraphics.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9a36ef5020>: {
+}
+2017-12-08 14:55:30 +0000  Entitlements for <IDEDistributionItem: 0x7f9a25d74f00 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7f9a21878290:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftCoreGraphics.dylib'>'>: {
+}
+2017-12-08 14:55:30 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9a25d74f00 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7f9a21878290:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftCoreGraphics.dylib'>'> to: /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlementsO6ECLE
+2017-12-08 14:55:30 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'D8A7613BB927A2E25B537FFDB173B06FED5F5FD4' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlementsO6ECLE' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftCoreGraphics.dylib'
+2017-12-08 14:55:30 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftCoreGraphics.dylib: replacing existing signature
+2017-12-08 14:55:30 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftCoreGraphics.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreGraphics]
+2017-12-08 14:55:30 +0000  
+2017-12-08 14:55:30 +0000  
+2017-12-08 14:55:30 +0000  
+2017-12-08 14:55:30 +0000  
+2017-12-08 14:55:30 +0000  2017-12-08 14:55:30 +0000  /usr/bin/codesign exited with 0
+
+2017-12-08 14:55:30 +0000  
+2017-12-08 14:55:30 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9a25dd97c0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7f9a20c44610:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftCoreImage.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9a359711d0>: {
+}
+2017-12-08 14:55:30 +0000  Entitlements for <IDEDistributionItem: 0x7f9a25dd97c0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7f9a20c44610:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftCoreImage.dylib'>'>: {
+}
+2017-12-08 14:55:30 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9a25dd97c0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7f9a20c44610:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftCoreImage.dylib'>'> to: /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlementsr8iprR
+2017-12-08 14:55:30 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'D8A7613BB927A2E25B537FFDB173B06FED5F5FD4' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlementsr8iprR' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftCoreImage.dylib'
+2017-12-08 14:55:30 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftCoreImage.dylib: replacing existing signature
+2017-12-08 14:55:30 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftCoreImage.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreImage]
+2017-12-08 14:55:30 +0000  
+2017-12-08 14:55:30 +0000  
+2017-12-08 14:55:30 +0000  
+2017-12-08 14:55:30 +0000  
+2017-12-08 14:55:30 +0000  /usr/bin/codesign exited with 02017-12-08 14:55:30 +0000  
+
+2017-12-08 14:55:30 +0000  
+2017-12-08 14:55:30 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9a25e536d0 'com.apple.dt.runtime.swiftCoreMedia' '<DVTFilePath:0x7f9a21b27b90:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftCoreMedia.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9a2563f0f0>: {
+}
+2017-12-08 14:55:30 +0000  Entitlements for <IDEDistributionItem: 0x7f9a25e536d0 'com.apple.dt.runtime.swiftCoreMedia' '<DVTFilePath:0x7f9a21b27b90:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftCoreMedia.dylib'>'>: {
+}
+2017-12-08 14:55:30 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9a25e536d0 'com.apple.dt.runtime.swiftCoreMedia' '<DVTFilePath:0x7f9a21b27b90:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftCoreMedia.dylib'>'> to: /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlementsso6cYv
+2017-12-08 14:55:30 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'D8A7613BB927A2E25B537FFDB173B06FED5F5FD4' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlementsso6cYv' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftCoreMedia.dylib'
+2017-12-08 14:55:30 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftCoreMedia.dylib: replacing existing signature
+2017-12-08 14:55:30 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftCoreMedia.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreMedia]
+2017-12-08 14:55:30 +0000  
+2017-12-08 14:55:30 +0000  
+2017-12-08 14:55:30 +0000  2017-12-08 14:55:30 +0000  
+
+2017-12-08 14:55:30 +0000  /usr/bin/codesign exited with 0
+2017-12-08 14:55:30 +0000  
+2017-12-08 14:55:30 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9a1f5b8cb0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7f9a37a6d190:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftDarwin.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9a25e42380>: {
+}
+2017-12-08 14:55:30 +0000  Entitlements for <IDEDistributionItem: 0x7f9a1f5b8cb0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7f9a37a6d190:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftDarwin.dylib'>'>: {
+}
+2017-12-08 14:55:30 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9a1f5b8cb0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7f9a37a6d190:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftDarwin.dylib'>'> to: /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlementsoGO8p1
+2017-12-08 14:55:30 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'D8A7613BB927A2E25B537FFDB173B06FED5F5FD4' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlementsoGO8p1' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftDarwin.dylib'
+2017-12-08 14:55:30 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftDarwin.dylib: replacing existing signature
+2017-12-08 14:55:31 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftDarwin.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDarwin]
+2017-12-08 14:55:31 +0000  
+2017-12-08 14:55:31 +0000  
+2017-12-08 14:55:31 +0000  
+2017-12-08 14:55:31 +0000  
+2017-12-08 14:55:31 +0000  /usr/bin/codesign exited with 02017-12-08 14:55:31 +0000  
+
+2017-12-08 14:55:31 +0000  
+2017-12-08 14:55:31 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9a202c52a0 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7f9a245c3e80:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftDispatch.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9a25daa030>: {
+}
+2017-12-08 14:55:31 +0000  Entitlements for <IDEDistributionItem: 0x7f9a202c52a0 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7f9a245c3e80:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftDispatch.dylib'>'>: {
+}
+2017-12-08 14:55:31 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9a202c52a0 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7f9a245c3e80:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftDispatch.dylib'>'> to: /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlementsFozlM3
+2017-12-08 14:55:31 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'D8A7613BB927A2E25B537FFDB173B06FED5F5FD4' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlementsFozlM3' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftDispatch.dylib'
+2017-12-08 14:55:31 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftDispatch.dylib: replacing existing signature
+2017-12-08 14:55:31 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftDispatch.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDispatch]
+2017-12-08 14:55:31 +0000  
+2017-12-08 14:55:31 +0000  
+2017-12-08 14:55:31 +0000  
+2017-12-08 14:55:31 +0000  
+2017-12-08 14:55:31 +0000  /usr/bin/codesign exited with 0
+2017-12-08 14:55:31 +0000  2017-12-08 14:55:31 +0000  
+
+2017-12-08 14:55:31 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9a25d4e5e0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7f9a34d47a10:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftFoundation.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9a25ec7880>: {
+}
+2017-12-08 14:55:31 +0000  Entitlements for <IDEDistributionItem: 0x7f9a25d4e5e0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7f9a34d47a10:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftFoundation.dylib'>'>: {
+}
+2017-12-08 14:55:31 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9a25d4e5e0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7f9a34d47a10:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftFoundation.dylib'>'> to: /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlementsLKqT1L
+2017-12-08 14:55:31 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'D8A7613BB927A2E25B537FFDB173B06FED5F5FD4' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlementsLKqT1L' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftFoundation.dylib'
+2017-12-08 14:55:31 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftFoundation.dylib: replacing existing signature
+2017-12-08 14:55:31 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftFoundation]
+2017-12-08 14:55:31 +0000  
+2017-12-08 14:55:31 +0000  
+2017-12-08 14:55:31 +0000  2017-12-08 14:55:31 +0000  /usr/bin/codesign exited with 0
+
+2017-12-08 14:55:31 +0000  
+2017-12-08 14:55:31 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9a25ed57e0 'com.apple.dt.runtime.swiftGLKit' '<DVTFilePath:0x7f9a3cfc4490:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftGLKit.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9a20401fb0>: {
+}
+2017-12-08 14:55:31 +0000  Entitlements for <IDEDistributionItem: 0x7f9a25ed57e0 'com.apple.dt.runtime.swiftGLKit' '<DVTFilePath:0x7f9a3cfc4490:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftGLKit.dylib'>'>: {
+}
+2017-12-08 14:55:31 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9a25ed57e0 'com.apple.dt.runtime.swiftGLKit' '<DVTFilePath:0x7f9a3cfc4490:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftGLKit.dylib'>'> to: /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlementssiTRsY
+2017-12-08 14:55:31 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'D8A7613BB927A2E25B537FFDB173B06FED5F5FD4' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlementssiTRsY' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftGLKit.dylib'
+2017-12-08 14:55:31 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftGLKit.dylib: replacing existing signature
+2017-12-08 14:55:31 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftGLKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftGLKit]
+2017-12-08 14:55:31 +0000  
+2017-12-08 14:55:31 +0000  
+2017-12-08 14:55:31 +0000  
+2017-12-08 14:55:31 +0000  
+2017-12-08 14:55:31 +0000  2017-12-08 14:55:31 +0000  /usr/bin/codesign exited with 0
+
+2017-12-08 14:55:31 +0000  2017-12-08 14:55:31 +0000  
+
+2017-12-08 14:55:31 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9a367c0190 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7f9a25b83300:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftMetal.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9a256c1530>: {
+}
+2017-12-08 14:55:31 +0000  Entitlements for <IDEDistributionItem: 0x7f9a367c0190 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7f9a25b83300:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftMetal.dylib'>'>: {
+}
+2017-12-08 14:55:31 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9a367c0190 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7f9a25b83300:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftMetal.dylib'>'> to: /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlementsKP89jH
+2017-12-08 14:55:31 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'D8A7613BB927A2E25B537FFDB173B06FED5F5FD4' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlementsKP89jH' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftMetal.dylib'
+2017-12-08 14:55:32 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftMetal.dylib: replacing existing signature
+2017-12-08 14:55:32 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftMetal.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftMetal]
+2017-12-08 14:55:32 +0000  
+2017-12-08 14:55:32 +0000  
+2017-12-08 14:55:32 +0000  
+2017-12-08 14:55:32 +0000  
+2017-12-08 14:55:32 +0000  /usr/bin/codesign exited with 0
+2017-12-08 14:55:32 +0000  2017-12-08 14:55:32 +0000  
+
+2017-12-08 14:55:32 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9a25b58470 'com.apple.dt.runtime.swiftModelIO' '<DVTFilePath:0x7f9a25bf4c10:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftModelIO.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9a25d746b0>: {
+}
+2017-12-08 14:55:32 +0000  Entitlements for <IDEDistributionItem: 0x7f9a25b58470 'com.apple.dt.runtime.swiftModelIO' '<DVTFilePath:0x7f9a25bf4c10:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftModelIO.dylib'>'>: {
+}
+2017-12-08 14:55:32 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9a25b58470 'com.apple.dt.runtime.swiftModelIO' '<DVTFilePath:0x7f9a25bf4c10:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftModelIO.dylib'>'> to: /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlementsGXtLJF
+2017-12-08 14:55:32 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'D8A7613BB927A2E25B537FFDB173B06FED5F5FD4' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlementsGXtLJF' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftModelIO.dylib'
+2017-12-08 14:55:32 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftModelIO.dylib: replacing existing signature
+2017-12-08 14:55:32 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftModelIO.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftModelIO]
+2017-12-08 14:55:32 +0000  2017-12-08 14:55:32 +0000  /usr/bin/codesign exited with 0
+
+2017-12-08 14:55:32 +0000  
+2017-12-08 14:55:32 +0000  
+2017-12-08 14:55:32 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9a25bf2940 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7f9a257234f0:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftObjectiveC.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9a25ab1790>: {
+}
+2017-12-08 14:55:32 +0000  Entitlements for <IDEDistributionItem: 0x7f9a25bf2940 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7f9a257234f0:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftObjectiveC.dylib'>'>: {
+}
+2017-12-08 14:55:32 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9a25bf2940 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7f9a257234f0:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftObjectiveC.dylib'>'> to: /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlementsh3vCy8
+2017-12-08 14:55:32 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'D8A7613BB927A2E25B537FFDB173B06FED5F5FD4' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlementsh3vCy8' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftObjectiveC.dylib'
+2017-12-08 14:55:33 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftObjectiveC.dylib: replacing existing signature
+2017-12-08 14:55:33 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftObjectiveC.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftObjectiveC]
+2017-12-08 14:55:33 +0000  
+2017-12-08 14:55:33 +0000  2017-12-08 14:55:33 +0000  /usr/bin/codesign exited with 0
+
+2017-12-08 14:55:33 +0000  2017-12-08 14:55:33 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9a206b25c0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7f9a25bf2240:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftQuartzCore.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9a25d0d290>: {
+}
+
+2017-12-08 14:55:33 +0000  Entitlements for <IDEDistributionItem: 0x7f9a206b25c0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7f9a25bf2240:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftQuartzCore.dylib'>'>: {
+}
+2017-12-08 14:55:33 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9a206b25c0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7f9a25bf2240:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftQuartzCore.dylib'>'> to: /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlementsbhLHmN
+2017-12-08 14:55:33 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'D8A7613BB927A2E25B537FFDB173B06FED5F5FD4' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlementsbhLHmN' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftQuartzCore.dylib'
+2017-12-08 14:55:33 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftQuartzCore.dylib: replacing existing signature
+2017-12-08 14:55:34 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftQuartzCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftQuartzCore]
+2017-12-08 14:55:34 +0000  
+2017-12-08 14:55:34 +0000  
+2017-12-08 14:55:34 +0000  
+2017-12-08 14:55:34 +0000  2017-12-08 14:55:34 +0000  /usr/bin/codesign exited with 0
+
+2017-12-08 14:55:34 +0000  
+2017-12-08 14:55:34 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9a25d344c0 'com.apple.dt.runtime.swiftSceneKit' '<DVTFilePath:0x7f9a35011a30:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftSceneKit.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9a35b03ba0>: {
+}
+2017-12-08 14:55:34 +0000  Entitlements for <IDEDistributionItem: 0x7f9a25d344c0 'com.apple.dt.runtime.swiftSceneKit' '<DVTFilePath:0x7f9a35011a30:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftSceneKit.dylib'>'>: {
+}
+2017-12-08 14:55:34 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9a25d344c0 'com.apple.dt.runtime.swiftSceneKit' '<DVTFilePath:0x7f9a35011a30:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftSceneKit.dylib'>'> to: /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlementsdfxuCc
+2017-12-08 14:55:34 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'D8A7613BB927A2E25B537FFDB173B06FED5F5FD4' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlementsdfxuCc' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftSceneKit.dylib'
+2017-12-08 14:55:34 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftSceneKit.dylib: replacing existing signature
+2017-12-08 14:55:34 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftSceneKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftSceneKit]
+2017-12-08 14:55:34 +0000  
+2017-12-08 14:55:34 +0000  
+2017-12-08 14:55:34 +0000  2017-12-08 14:55:34 +0000  
+
+2017-12-08 14:55:34 +0000  /usr/bin/codesign exited with 02017-12-08 14:55:34 +0000  
+
+2017-12-08 14:55:34 +0000  
+2017-12-08 14:55:34 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9a3a1f8000 'com.apple.dt.runtime.swiftSpriteKit' '<DVTFilePath:0x7f9a25f659d0:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftSpriteKit.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9a259665f0>: {
+}
+2017-12-08 14:55:34 +0000  Entitlements for <IDEDistributionItem: 0x7f9a3a1f8000 'com.apple.dt.runtime.swiftSpriteKit' '<DVTFilePath:0x7f9a25f659d0:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftSpriteKit.dylib'>'>: {
+}
+2017-12-08 14:55:34 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9a3a1f8000 'com.apple.dt.runtime.swiftSpriteKit' '<DVTFilePath:0x7f9a25f659d0:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftSpriteKit.dylib'>'> to: /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlementslCljbi
+2017-12-08 14:55:34 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'D8A7613BB927A2E25B537FFDB173B06FED5F5FD4' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlementslCljbi' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftSpriteKit.dylib'
+2017-12-08 14:55:34 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftSpriteKit.dylib: replacing existing signature
+2017-12-08 14:55:34 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftSpriteKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftSpriteKit]
+2017-12-08 14:55:34 +0000  
+2017-12-08 14:55:34 +0000  
+2017-12-08 14:55:34 +0000  
+2017-12-08 14:55:34 +0000  2017-12-08 14:55:34 +0000  /usr/bin/codesign exited with 0
+
+2017-12-08 14:55:34 +0000  
+2017-12-08 14:55:34 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9a25a85540 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7f9a25a60340:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftUIKit.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9a253aedb0>: {
+}
+2017-12-08 14:55:34 +0000  Entitlements for <IDEDistributionItem: 0x7f9a25a85540 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7f9a25a60340:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftUIKit.dylib'>'>: {
+}
+2017-12-08 14:55:34 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9a25a85540 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7f9a25a60340:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftUIKit.dylib'>'> to: /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlementsiVbips
+2017-12-08 14:55:34 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'D8A7613BB927A2E25B537FFDB173B06FED5F5FD4' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlementsiVbips' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftUIKit.dylib'
+2017-12-08 14:55:34 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftUIKit.dylib: replacing existing signature
+2017-12-08 14:55:34 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftUIKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftUIKit]
+2017-12-08 14:55:34 +0000  
+2017-12-08 14:55:34 +0000  
+2017-12-08 14:55:34 +0000  
+2017-12-08 14:55:34 +0000  
+2017-12-08 14:55:34 +0000  2017-12-08 14:55:34 +0000  /usr/bin/codesign exited with 0
+
+2017-12-08 14:55:34 +0000  
+2017-12-08 14:55:34 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9a3cbcabe0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7f9a20db1b20:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftos.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9a34ba6920>: {
+}
+2017-12-08 14:55:34 +0000  Entitlements for <IDEDistributionItem: 0x7f9a3cbcabe0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7f9a20db1b20:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftos.dylib'>'>: {
+}
+2017-12-08 14:55:34 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9a3cbcabe0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7f9a20db1b20:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftos.dylib'>'> to: /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlementsxlXKbu
+2017-12-08 14:55:34 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'D8A7613BB927A2E25B537FFDB173B06FED5F5FD4' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlementsxlXKbu' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftos.dylib'
+2017-12-08 14:55:34 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftos.dylib: replacing existing signature
+2017-12-08 14:55:35 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftos.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftos]
+2017-12-08 14:55:35 +0000  
+2017-12-08 14:55:35 +0000  
+2017-12-08 14:55:35 +0000  
+2017-12-08 14:55:35 +0000  2017-12-08 14:55:35 +0000  /usr/bin/codesign exited with 0
+
+2017-12-08 14:55:35 +0000  
+2017-12-08 14:55:35 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9a20802f80 'com.apple.dt.runtime.swiftsimd' '<DVTFilePath:0x7f9a201e9c40:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftsimd.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9a20c44680>: {
+}
+2017-12-08 14:55:35 +0000  Entitlements for <IDEDistributionItem: 0x7f9a20802f80 'com.apple.dt.runtime.swiftsimd' '<DVTFilePath:0x7f9a201e9c40:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftsimd.dylib'>'>: {
+}
+2017-12-08 14:55:35 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9a20802f80 'com.apple.dt.runtime.swiftsimd' '<DVTFilePath:0x7f9a201e9c40:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app/Frameworks/libswiftsimd.dylib'>'> to: /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlementsU1aRw8
+2017-12-08 14:55:35 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'D8A7613BB927A2E25B537FFDB173B06FED5F5FD4' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlementsU1aRw8' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftsimd.dylib'
+2017-12-08 14:55:35 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftsimd.dylib: replacing existing signature
+2017-12-08 14:55:35 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app/Frameworks/libswiftsimd.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftsimd]
+2017-12-08 14:55:35 +0000  
+2017-12-08 14:55:35 +0000  
+2017-12-08 14:55:35 +0000  2017-12-08 14:55:35 +0000  
+
+2017-12-08 14:55:35 +0000  2017-12-08 14:55:35 +0000  /usr/bin/codesign exited with 0
+
+2017-12-08 14:55:35 +0000  
+2017-12-08 14:55:35 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9a362c7840 'cn.creativept.souqute' '<DVTFilePath:0x7f9a257a75f0:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9a1f7b82e0>: {
+}
+2017-12-08 14:55:35 +0000  Entitlements for <IDEDistributionItem: 0x7f9a362c7840 'cn.creativept.souqute' '<DVTFilePath:0x7f9a257a75f0:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app'>'>: {
+    "application-identifier" = "C7FFSV9SD5.cn.creativept.souqute";
+    "com.apple.developer.team-identifier" = C7FFSV9SD5;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "C7FFSV9SD5.cn.creativept.souqute"
+    );
+}
+2017-12-08 14:55:35 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9a362c7840 'cn.creativept.souqute' '<DVTFilePath:0x7f9a257a75f0:'/Users/creativept/Library/Developer/Xcode/Archives/2017-12-08/souqute 2017-12-8 下午10.54.xcarchive/Products/Applications/souqute.app'>'> to: /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlementsuYxUQp
+2017-12-08 14:55:35 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'D8A7613BB927A2E25B537FFDB173B06FED5F5FD4' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/entitlementsuYxUQp' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app'
+2017-12-08 14:55:35 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app: replacing existing signature
+2017-12-08 14:55:35 +0000  /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root/Payload/souqute.app: signed app bundle with Mach-O universal (armv7 arm64) [cn.creativept.souqute]
+2017-12-08 14:55:35 +0000  
+2017-12-08 14:55:35 +0000  
+2017-12-08 14:55:35 +0000  
+2017-12-08 14:55:35 +0000  /usr/bin/codesign exited with 0
+2017-12-08 14:55:35 +0000  2017-12-08 14:55:35 +0000  
+
+2017-12-08 14:55:35 +0000  Processing step: IDEDistributionStreamingZipItemStep
+2017-12-08 14:55:35 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-08 14:55:35 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-08 14:55:35 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-08 14:55:35 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-08 14:55:35 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-08 14:55:35 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-08 14:55:35 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-08 14:55:35 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-08 14:55:35 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-08 14:55:35 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-08 14:55:35 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-08 14:55:35 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-08 14:55:35 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-08 14:55:35 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-08 14:55:35 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-08 14:55:35 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-08 14:55:35 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-08 14:55:35 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-08 14:55:35 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-08 14:55:35 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-08 14:55:35 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-08 14:55:35 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-08 14:55:35 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-08 14:55:35 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-08 14:55:35 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-08 14:55:35 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-08 14:55:35 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-08 14:55:35 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-08 14:55:35 +0000  Processing step: IDEDistributionCreateIPAStep
+2017-12-08 14:55:35 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root' '/var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Packages/souqute.ipa'
+2017-12-08 14:55:35 +0000  >>> Copying /var/folders/dn/v1qbhbsj621crxv9f27zsvl80000gp/T/XcodeDistPipeline.eXr/Root 
+2017-12-08 14:55:35 +0000  copying file ./Payload/souqute.app/_CodeSignature/CodeResources ... 
+2017-12-08 14:55:35 +0000  26616 bytes for ./Payload/souqute.app/_CodeSignature/CodeResources
+2017-12-08 14:55:35 +0000  copying file ./Payload/souqute.app/archived-expanded-entitlements.xcent ... 
+380 bytes for ./Payload/souqute.app/archived-expanded-entitlements.xcent
+2017-12-08 14:55:35 +0000  copying file ./Payload/souqute.app/Assets.car ... 
+2017-12-08 14:55:35 +0000  2617144 bytes for ./Payload/souqute.app/Assets.car
+copying file ./Payload/souqute.app/BackView.nib ... 
+2017-12-08 14:55:35 +0000  9011 bytes for ./Payload/souqute.app/BackView.nib
+2017-12-08 14:55:35 +0000  copying file ./Payload/souqute.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+1987 bytes for ./Payload/souqute.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/souqute.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2017-12-08 14:55:35 +0000  258 bytes for ./Payload/souqute.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/souqute.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2017-12-08 14:55:35 +0000  832 bytes for ./Payload/souqute.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/souqute.app/Base.lproj/Main.storyboardc/1Y1-Fl-nH5-view-Eac-Sm-geu.nib/objects-11.0+.nib ... 
+2017-12-08 14:55:35 +0000  13459 bytes for ./Payload/souqute.app/Base.lproj/Main.storyboardc/1Y1-Fl-nH5-view-Eac-Sm-geu.nib/objects-11.0+.nib
+2017-12-08 14:55:35 +0000  copying file ./Payload/souqute.app/Base.lproj/Main.storyboardc/1Y1-Fl-nH5-view-Eac-Sm-geu.nib/runtime.nib ... 
+2017-12-08 14:55:35 +0000  13578 bytes for ./Payload/souqute.app/Base.lproj/Main.storyboardc/1Y1-Fl-nH5-view-Eac-Sm-geu.nib/runtime.nib
+2017-12-08 14:55:35 +0000  copying file ./Payload/souqute.app/Base.lproj/Main.storyboardc/Info.plist ... 
+333 bytes for ./Payload/souqute.app/Base.lproj/Main.storyboardc/Info.plist
+copying file ./Payload/souqute.app/Base.lproj/Main.storyboardc/LrC-1T-Q4Y-view-ffw-gd-Jsq.nib/objects-11.0+.nib ... 
+2017-12-08 14:55:35 +0000  11040 bytes for ./Payload/souqute.app/Base.lproj/Main.storyboardc/LrC-1T-Q4Y-view-ffw-gd-Jsq.nib/objects-11.0+.nib
+2017-12-08 14:55:35 +0000  copying file ./Payload/souqute.app/Base.lproj/Main.storyboardc/LrC-1T-Q4Y-view-ffw-gd-Jsq.nib/runtime.nib ... 
+2017-12-08 14:55:35 +0000  11144 bytes for ./Payload/souqute.app/Base.lproj/Main.storyboardc/LrC-1T-Q4Y-view-ffw-gd-Jsq.nib/runtime.nib
+2017-12-08 14:55:35 +0000  copying file ./Payload/souqute.app/Base.lproj/Main.storyboardc/UIViewController-1Y1-Fl-nH5.nib/objects-11.0+.nib ... 
+1243 bytes for ./Payload/souqute.app/Base.lproj/Main.storyboardc/UIViewController-1Y1-Fl-nH5.nib/objects-11.0+.nib
+2017-12-08 14:55:35 +0000  copying file ./Payload/souqute.app/Base.lproj/Main.storyboardc/UIViewController-1Y1-Fl-nH5.nib/runtime.nib ... 
+1243 bytes for ./Payload/souqute.app/Base.lproj/Main.storyboardc/UIViewController-1Y1-Fl-nH5.nib/runtime.nib
+2017-12-08 14:55:35 +0000  copying file ./Payload/souqute.app/Base.lproj/Main.storyboardc/UIViewController-LrC-1T-Q4Y.nib/objects-11.0+.nib ... 
+980 bytes for ./Payload/souqute.app/Base.lproj/Main.storyboardc/UIViewController-LrC-1T-Q4Y.nib/objects-11.0+.nib
+copying file ./Payload/souqute.app/Base.lproj/Main.storyboardc/UIViewController-LrC-1T-Q4Y.nib/runtime.nib ... 
+2017-12-08 14:55:35 +0000  980 bytes for ./Payload/souqute.app/Base.lproj/Main.storyboardc/UIViewController-LrC-1T-Q4Y.nib/runtime.nib
+copying file ./Payload/souqute.app/embedded.mobileprovision ... 
+2017-12-08 14:55:35 +0000  11858 bytes for ./Payload/souqute.app/embedded.mobileprovision
+2017-12-08 14:55:35 +0000  copying file ./Payload/souqute.app/Frameworks/Alamofire.framework/_CodeSignature/CodeResources ... 
+2017-12-08 14:55:35 +0000  2202 bytes for ./Payload/souqute.app/Frameworks/Alamofire.framework/_CodeSignature/CodeResources
+copying file ./Payload/souqute.app/Frameworks/Alamofire.framework/Alamofire ... 
+2017-12-08 14:55:36 +0000  2692208 bytes for ./Payload/souqute.app/Frameworks/Alamofire.framework/Alamofire
+copying file ./Payload/souqute.app/Frameworks/Alamofire.framework/Info.plist ... 
+2017-12-08 14:55:36 +0000  739 bytes for ./Payload/souqute.app/Frameworks/Alamofire.framework/Info.plist
+copying file ./Payload/souqute.app/Frameworks/Kanna.framework/_CodeSignature/CodeResources ... 
+2017-12-08 14:55:36 +0000  2202 bytes for ./Payload/souqute.app/Frameworks/Kanna.framework/_CodeSignature/CodeResources
+copying file ./Payload/souqute.app/Frameworks/Kanna.framework/Info.plist ... 
+731 bytes for ./Payload/souqute.app/Frameworks/Kanna.framework/Info.plist
+copying file ./Payload/souqute.app/Frameworks/Kanna.framework/Kanna ... 
+2017-12-08 14:55:36 +0000  913776 bytes for ./Payload/souqute.app/Frameworks/Kanna.framework/Kanna
+2017-12-08 14:55:36 +0000  copying file ./Payload/souqute.app/Frameworks/libswiftAVFoundation.dylib ... 
+2017-12-08 14:55:36 +0000  504784 bytes for ./Payload/souqute.app/Frameworks/libswiftAVFoundation.dylib
+copying file ./Payload/souqute.app/Frameworks/libswiftCore.dylib ... 
+2017-12-08 14:55:37 +0000  21079984 bytes for ./Payload/souqute.app/Frameworks/libswiftCore.dylib
+copying file ./Payload/souqute.app/Frameworks/libswiftCoreAudio.dylib ... 
+2017-12-08 14:55:37 +0000  354256 bytes for ./Payload/souqute.app/Frameworks/libswiftCoreAudio.dylib
+copying file ./Payload/souqute.app/Frameworks/libswiftCoreData.dylib ... 
+2017-12-08 14:55:37 +0000  394752 bytes for ./Payload/souqute.app/Frameworks/libswiftCoreData.dylib
+2017-12-08 14:55:37 +0000  copying file ./Payload/souqute.app/Frameworks/libswiftCoreFoundation.dylib ... 
+2017-12-08 14:55:37 +0000  208688 bytes for ./Payload/souqute.app/Frameworks/libswiftCoreFoundation.dylib
+copying file ./Payload/souqute.app/Frameworks/libswiftCoreGraphics.dylib ... 
+2017-12-08 14:55:37 +0000  578160 bytes for ./Payload/souqute.app/Frameworks/libswiftCoreGraphics.dylib
+copying file ./Payload/souqute.app/Frameworks/libswiftCoreImage.dylib ... 
+2017-12-08 14:55:37 +0000  209248 bytes for ./Payload/souqute.app/Frameworks/libswiftCoreImage.dylib
+copying file ./Payload/souqute.app/Frameworks/libswiftCoreMedia.dylib ... 
+2017-12-08 14:55:37 +0000  254048 bytes for ./Payload/souqute.app/Frameworks/libswiftCoreMedia.dylib
+2017-12-08 14:55:37 +0000  copying file ./Payload/souqute.app/Frameworks/libswiftDarwin.dylib ... 
+2017-12-08 14:55:37 +0000  303472 bytes for ./Payload/souqute.app/Frameworks/libswiftDarwin.dylib
+copying file ./Payload/souqute.app/Frameworks/libswiftDispatch.dylib ... 
+2017-12-08 14:55:37 +0000  1009648 bytes for ./Payload/souqute.app/Frameworks/libswiftDispatch.dylib
+copying file ./Payload/souqute.app/Frameworks/libswiftFoundation.dylib ... 
+2017-12-08 14:55:37 +0000  8425712 bytes for ./Payload/souqute.app/Frameworks/libswiftFoundation.dylib
+copying file ./Payload/souqute.app/Frameworks/libswiftGLKit.dylib ... 
+2017-12-08 14:55:37 +0000  210160 bytes for ./Payload/souqute.app/Frameworks/libswiftGLKit.dylib
+copying file ./Payload/souqute.app/Frameworks/libswiftMetal.dylib ... 
+2017-12-08 14:55:37 +0000  251648 bytes for ./Payload/souqute.app/Frameworks/libswiftMetal.dylib
+copying file ./Payload/souqute.app/Frameworks/libswiftModelIO.dylib ... 
+2017-12-08 14:55:37 +0000  308528 bytes for ./Payload/souqute.app/Frameworks/libswiftModelIO.dylib
+copying file ./Payload/souqute.app/Frameworks/libswiftObjectiveC.dylib ... 
+2017-12-08 14:55:37 +0000  259344 bytes for ./Payload/souqute.app/Frameworks/libswiftObjectiveC.dylib
+copying file ./Payload/souqute.app/Frameworks/libswiftos.dylib ... 
+2017-12-08 14:55:37 +0000  249312 bytes for ./Payload/souqute.app/Frameworks/libswiftos.dylib
+copying file ./Payload/souqute.app/Frameworks/libswiftQuartzCore.dylib ... 
+2017-12-08 14:55:37 +0000  212608 bytes for ./Payload/souqute.app/Frameworks/libswiftQuartzCore.dylib
+copying file ./Payload/souqute.app/Frameworks/libswiftSceneKit.dylib ... 
+2017-12-08 14:55:37 +0000  258816 bytes for ./Payload/souqute.app/Frameworks/libswiftSceneKit.dylib
+copying file ./Payload/souqute.app/Frameworks/libswiftsimd.dylib ... 
+2017-12-08 14:55:37 +0000  1361648 bytes for ./Payload/souqute.app/Frameworks/libswiftsimd.dylib
+copying file ./Payload/souqute.app/Frameworks/libswiftSpriteKit.dylib ... 
+2017-12-08 14:55:37 +0000  249120 bytes for ./Payload/souqute.app/Frameworks/libswiftSpriteKit.dylib
+copying file ./Payload/souqute.app/Frameworks/libswiftUIKit.dylib ... 
+2017-12-08 14:55:37 +0000  361888 bytes for ./Payload/souqute.app/Frameworks/libswiftUIKit.dylib
+2017-12-08 14:55:37 +0000  copying file ./Payload/souqute.app/Frameworks/RxCocoa.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Payload/souqute.app/Frameworks/RxCocoa.framework/_CodeSignature/CodeResources
+2017-12-08 14:55:37 +0000  copying file ./Payload/souqute.app/Frameworks/RxCocoa.framework/Info.plist ... 
+735 bytes for ./Payload/souqute.app/Frameworks/RxCocoa.framework/Info.plist
+copying file ./Payload/souqute.app/Frameworks/RxCocoa.framework/RxCocoa ... 
+2017-12-08 14:55:38 +0000  3708400 bytes for ./Payload/souqute.app/Frameworks/RxCocoa.framework/RxCocoa
+2017-12-08 14:55:38 +0000  copying file ./Payload/souqute.app/Frameworks/RxSwift.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Payload/souqute.app/Frameworks/RxSwift.framework/_CodeSignature/CodeResources
+2017-12-08 14:55:38 +0000  copying file ./Payload/souqute.app/Frameworks/RxSwift.framework/Info.plist ... 
+735 bytes for ./Payload/souqute.app/Frameworks/RxSwift.framework/Info.plist
+copying file ./Payload/souqute.app/Frameworks/RxSwift.framework/RxSwift ... 
+2017-12-08 14:55:38 +0000  4960176 bytes for ./Payload/souqute.app/Frameworks/RxSwift.framework/RxSwift
+2017-12-08 14:55:38 +0000  copying file ./Payload/souqute.app/Frameworks/SwiftyJSON.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Payload/souqute.app/Frameworks/SwiftyJSON.framework/_CodeSignature/CodeResources
+copying file ./Payload/souqute.app/Frameworks/SwiftyJSON.framework/Info.plist ... 
+2017-12-08 14:55:38 +0000  741 bytes for ./Payload/souqute.app/Frameworks/SwiftyJSON.framework/Info.plist
+copying file ./Payload/souqute.app/Frameworks/SwiftyJSON.framework/SwiftyJSON ... 
+2017-12-08 14:55:38 +0000  874512 bytes for ./Payload/souqute.app/Frameworks/SwiftyJSON.framework/SwiftyJSON
+2017-12-08 14:55:38 +0000  copying file ./Payload/souqute.app/Frameworks/Toast_Swift.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Payload/souqute.app/Frameworks/Toast_Swift.framework/_CodeSignature/CodeResources
+2017-12-08 14:55:38 +0000  copying file ./Payload/souqute.app/Frameworks/Toast_Swift.framework/Info.plist ... 
+743 bytes for ./Payload/souqute.app/Frameworks/Toast_Swift.framework/Info.plist
+copying file ./Payload/souqute.app/Frameworks/Toast_Swift.framework/Toast_Swift ... 
+2017-12-08 14:55:38 +0000  425776 bytes for ./Payload/souqute.app/Frameworks/Toast_Swift.framework/Toast_Swift
+2017-12-08 14:55:38 +0000  copying file ./Payload/souqute.app/Info.plist ... 
+1175 bytes for ./Payload/souqute.app/Info.plist
+copying file ./Payload/souqute.app/MyView.nib ... 
+2017-12-08 14:55:38 +0000  10824 bytes for ./Payload/souqute.app/MyView.nib
+copying file ./Payload/souqute.app/PkgInfo ... 
+2017-12-08 14:55:38 +0000  8 bytes for ./Payload/souqute.app/PkgInfo
+copying file ./Payload/souqute.app/scene.scnassets/.DS_Store ... 
+2017-12-08 14:55:38 +0000  6148 bytes for ./Payload/souqute.app/scene.scnassets/.DS_Store
+copying file ./Payload/souqute.app/scene.scnassets/btn_bar_start.png ... 
+2017-12-08 14:55:38 +0000  9082 bytes for ./Payload/souqute.app/scene.scnassets/btn_bar_start.png
+copying file ./Payload/souqute.app/scene.scnassets/btn_bar_stop.png ... 
+2017-12-08 14:55:38 +0000  3143 bytes for ./Payload/souqute.app/scene.scnassets/btn_bar_stop.png
+copying file ./Payload/souqute.app/scene.scnassets/btn_menu_hov.png ... 
+2017-12-08 14:55:38 +0000  6947 bytes for ./Payload/souqute.app/scene.scnassets/btn_menu_hov.png
+2017-12-08 14:55:38 +0000  copying file ./Payload/souqute.app/scene.scnassets/btn_replay.png ... 
+2017-12-08 14:55:38 +0000  8056 bytes for ./Payload/souqute.app/scene.scnassets/btn_replay.png
+copying file ./Payload/souqute.app/scene.scnassets/circle.png ... 
+2017-12-08 14:55:38 +0000  2046 bytes for ./Payload/souqute.app/scene.scnassets/circle.png
+copying file ./Payload/souqute.app/scene.scnassets/panel_menu.png ... 
+2017-12-08 14:55:38 +0000  3047 bytes for ./Payload/souqute.app/scene.scnassets/panel_menu.png
+copying file ./Payload/souqute.app/scene.scnassets/seekbar_desk_loading.png ... 
+2017-12-08 14:55:38 +0000  2132 bytes for ./Payload/souqute.app/scene.scnassets/seekbar_desk_loading.png
+copying file ./Payload/souqute.app/scene.scnassets/seekbar_thumb.png ... 
+2017-12-08 14:55:38 +0000  1195 bytes for ./Payload/souqute.app/scene.scnassets/seekbar_thumb.png
+copying file ./Payload/souqute.app/scene.scnassets/star.png ... 
+2017-12-08 14:55:38 +0000  2429 bytes for ./Payload/souqute.app/scene.scnassets/star.png
+copying file ./Payload/souqute.app/scene.scnassets/star2.png ... 
+2017-12-08 14:55:38 +0000  2438 bytes for ./Payload/souqute.app/scene.scnassets/star2.png
+copying file ./Payload/souqute.app/scene.scnassets/test.scn ... 
+2017-12-08 14:55:38 +0000  57334 bytes for ./Payload/souqute.app/scene.scnassets/test.scn
+2017-12-08 14:55:38 +0000  copying file ./Payload/souqute.app/Shader.fsh ... 
+662 bytes for ./Payload/souqute.app/Shader.fsh
+copying file ./Payload/souqute.app/Shader.vsh ... 
+829 bytes for ./Payload/souqute.app/Shader.vsh
+copying file ./Payload/souqute.app/souqute ... 
+2017-12-08 14:55:38 +0000  1287888 bytes for ./Payload/souqute.app/souqute
+2017-12-08 14:55:38 +0000  copying file ./Payload/souqute.app/souqute.momd/souqute.mom ... 
+513 bytes for ./Payload/souqute.app/souqute.momd/souqute.mom
+copying file ./Payload/souqute.app/souqute.momd/souqute.omo ... 
+696 bytes for ./Payload/souqute.app/souqute.momd/souqute.omo
+2017-12-08 14:55:38 +0000  copying file ./Payload/souqute.app/souqute.momd/VersionInfo.plist ... 
+151 bytes for ./Payload/souqute.app/souqute.momd/VersionInfo.plist
+2017-12-08 14:55:38 +0000  
+2017-12-08 14:55:38 +0000  2017-12-08 14:55:38 +0000  /usr/bin/ditto exited with 0
+
+2017-12-08 14:55:38 +0000  2017-12-08 14:55:38 +0000  
+
+2017-12-08 14:55:38 +0000  Processing step: IDEDistributionCreateManifestStep
