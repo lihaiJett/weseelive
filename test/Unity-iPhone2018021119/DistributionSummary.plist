@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Unity-iPhone.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>7BB3AE724B9E82CB2065023EDEDFB421DE4CD109</string>
+				<key>dateExpires</key>
+				<string>2019/2/2</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>C7FFSV9SD5.cn.creativept.arstorysimplified</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>C7FFSV9SD5</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>C7FFSV9SD5.cn.creativept.arstorysimplified</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>arstorysimplified.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>a0997654-a739-4dd3-9d09-e84d3edf1799</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: *</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>C7FFSV9SD5</string>
+				<key>name</key>
+				<string>Guangzhou Yuanchuang Information Technology Company Limited</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
